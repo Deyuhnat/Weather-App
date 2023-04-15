@@ -13,12 +13,14 @@
 </head>
 
 <body>
-
-    <div class="container">
-        <div class="search-box">
-            <i class="fa-solid fa-location-dot"></i>
-            <input type="text" placeholder="Enter your location">
-            <button class="fa-solid fa-magnifying-glass"></button>
+    <h1>Weather App</h1>
+    <div id="container">
+        <div id="search-box">
+                <i id="icon" class="fa-solid fa-location-dot"></i>
+            <form id="search-form">
+                <input type="text" placeholder="Enter your location">
+                <button class="fa-solid fa-magnifying-glass"></button>
+            </form>
         </div>
 
         <div class="not-found">
@@ -27,6 +29,8 @@
         </div>
 
         <div class="weather-box">
+            <h2 id="city-name"></h2>
+            <h3 id="country-name"></h3>
             <img src="">
             <p class="temperature"></p>
             <p class="description"></p>
